@@ -27,7 +27,7 @@ $ npm install -g json-server
 
 ### Start the project
 
-Open a terminal or command prompt inside the project folder.
+Open a terminal or command prompt inside the project folder. (A new terminal should open for each command)
 
 ```Bash
 # Follow this command for Fake Api. This will run json-server.
