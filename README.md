@@ -2,7 +2,7 @@
 
 ## Description
 
-It is an example of a simple To Do List coded in React. Redux is used for state management and json-server is used for Fake Backend Provider. Also, SASS is used as CSS precompiler.
+It is an example of a simple ToDo List coded in React. Redux is used for state management and json-server is used for Fake Backend Provider. Also, SASS is used as CSS precompiler.
 
 ![alt text](screenshot/preview.gif?raw=true)
 
