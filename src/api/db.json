@@ -1,0 +1,36 @@
+{
+  "list": [
+    {
+      "id": 1,
+      "name": "First Item",
+      "isComplete": true
+    },
+    {
+      "id": 2,
+      "name": "Second Item",
+      "isComplete": false
+    },
+    {
+      "id": 3,
+      "name": "Third Item",
+      "isComplete": false
+    }
+  ],
+  "backup": [
+    {
+      "id": 1,
+      "name": "First Item",
+      "isComplete": true
+    },
+    {
+      "id": 2,
+      "name": "Second Item",
+      "isComplete": false
+    },
+    {
+      "id": 3,
+      "name": "Third Item",
+      "isComplete": false
+    }
+  ]
+}

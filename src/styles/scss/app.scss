@@ -1,0 +1,78 @@
+@import "variables";
+@import "mixin";
+
+h2 {
+	color: $white;
+}
+
+%input-shared {
+	border-radius: 4px;
+	border: 2px solid $color_eminence_approx;
+	outline: none;
+	width: 320px;
+	background: transparent;
+	color: $white;
+	font-size: 25px;
+	margin-right: 15px;
+}
+.todo-input {
+    @extend %input-shared;
+	padding: 14px 32px 14px 16px;
+
+    &-edit {
+        @extend %input-shared;
+    }
+    &::placeholder {
+		color: #e2e2e2;
+	}
+}
+.todo-container {
+    @include bg-purple;
+
+	margin: 60px auto;
+	flex-direction: column;
+	text-align: center;
+	background: linear-gradient(to right, $color_electric_violet_approx, $color_eminence_approx );
+	min-height: 90vh;
+	border-radius: 10px;
+	min-width: 480px;
+}
+.todo-row {
+    @include bg-purple;
+
+	justify-content: space-between;
+	align-items: center;
+	margin: 4px auto;
+	color: $white;
+	padding: 16px;
+	border-radius: 5px;
+}
+.todo-form {
+	text-align: center;
+	margin-top: 30px;
+	font-size: 25px;
+	display: flex;
+	justify-content: center;
+}
+.todo-button {
+	border: none;
+	border-radius: 4px;
+	font-size: 21px;
+	width: 70px;
+	cursor: pointer;
+	outline: none;
+	background: $color_eminence_approx;
+	color: $white;
+	text-transform: capitalize;
+}
+.todo-list {
+	margin-top: 20px;
+}
+.todo-icon {
+	width: 23px;
+	height: 23px;
+}
+.todo-completed {
+	text-decoration: line-through;
+	opacity: 0.4;
+}
